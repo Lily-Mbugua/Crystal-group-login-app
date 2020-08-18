@@ -25,21 +25,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-  </head>
-  <body>
+
+ <body>
+  <div id="root">
+  <div class="login-from"> 
+   <h1> Welcome! </h1> 
+   <h3> please sign up</h3> 
+   <form> 
+    <label> Username* </label> 
+    <input type="text" name="Username" placeholder="username"> 
+    <label>Email*</label> 
+    <input type="email" name="email" placeholder="your@email.com"> 
+    <label>password*</label> 
+    <input type="password" name="password"> 
+    <br> 
+    <input type="submit" name="submit" value="SIGN Up"> 
+   </form> 
+  </div> 
+ 
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <h1>WELCOME</h1>
-
-
-      <h3>
-        please sighn up
-
-      </h3>
-      <form>
-        <label>user name</label>
-        <input  type="text"
-      </form>
+    
 
     </div>
     <!--
